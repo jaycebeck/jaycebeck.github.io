@@ -17,8 +17,7 @@
     <!-- Header -->
     <header class="bg-gray-800 text-white p-4">
         <ul>
-            <h1 class="text-3xl pb-2">Jayce Beck, B.S. Computer Science</h1>
-            <h2 class="text-2xl pb-6 pl-4">Data Engineer</h2>
+            <h1 class="text-4xl pb-2">Jayce Beck</h1>
         </ul>
         <nav>
             <ul class="flex space-x-4 text-lg">
@@ -30,86 +29,349 @@
         </nav>
     </header>
 
-    <div class="bg-white dark:bg-gray-200 h-screen h-full py-6 sm:py-8 lg:py-12">
-        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-            <div class="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
-                <div class="flex items-center gap-12">
-                    <h2 class="text-2xl font-bold text-gray-800 lg:text-3xl">Portfolio</h2>
+    <div class="h-full flex w-full justify-center items-center dark:bg-gray-800 p-2">
 
-                    <p class="hidden max-w-screen-sm text-gray-500 md:block">
-                        This is a section of some simple filler text,
-                        also known as placeholder text. It shares some characteristics of a real written text.
-                    </p>
+        <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 p-4 md:p-2 xl:p-5">
+    
+            <!-- card  -->
+            <div
+                class="relative bg-white border rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 transform transition duration-500 hover:scale-105">
+                <div class="p-2 flex justify-center">
+                    <a href="#">
+                        <img class="rounded-md"
+                        src="https://tailwindflex.com/public/images/thumbnails/coming-soon-page/thumb_u.min.webp"
+                        loading="lazy">
+                    </a>
                 </div>
-
-                <a href="#"
-                    class="inline-block rounded-lg border bg-white dark:bg-gray-700 dark:border-none px-4 py-2 text-center text-sm font-semibold text-gray-500 dark:text-gray-200 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:px-8 md:py-3 md:text-base">
-                    More
-                </a>
+    
+                <div class="px-4 pb-3">
+                    <div>
+                        <a href="#">
+                            <h5
+                                class="text-xl font-semibold tracking-tight hover:text-violet-800 dark:hover:text-violet-300 text-gray-900 dark:text-white ">
+                                Card
+                            </h5>
+                        </a>
+    
+                        <p class="antialiased text-gray-600 dark:text-gray-400 text-sm break-all">
+                            A card component 
+                        </p>
+                    </div>
+                </div>
+    
             </div>
-
-            <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
-                <!-- image - start -->
-                <a href="#"
-                    class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                    <img src="https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&q=75&fit=crop&w=600"
-                        loading="lazy" alt="Photo by Minh Pham"
-                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-                    <div
-                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+    
+            <!-- card  -->
+            <div
+                class="relative bg-white border rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 transform transition duration-500 hover:scale-105">
+    
+                <div class="p-2 flex justify-center">
+                    <a href="#">
+                        <img class="rounded-md"
+                        src="https://tailwindflex.com/public/images/thumbnails/radio-buttons/thumb_u.min.webp"
+                        loading="lazy">
+                    </a>
+                </div>
+    
+                <div class="px-4 pb-3">
+                    <div>
+                        <a href="#">
+                            <h5
+                                class="text-xl font-semibold tracking-tight hover:text-violet-800 dark:hover:text-violet-300 text-gray-900 dark:text-white ">
+                                Input
+                            </h5>
+                        </a>
+    
+                        <p class="antialiased text-gray-600 dark:text-gray-400 text-sm break-all">
+                            description
+                        </p>
                     </div>
-
-                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">VR</span>
-                </a>
-                <!-- image - end -->
-
-                <!-- image - start -->
-                <a href="#"
-                    class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
-                    <img src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=1000"
-                        loading="lazy" alt="Photo by Magicle"
-                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-                    <div
-                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
-                    </div>
-
-                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Tech</span>
-                </a>
-                <!-- image - end -->
-
-                <!-- image - start -->
-                <a href="#"
-                    class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-2 md:h-80">
-                    <img src="https://images.unsplash.com/photo-1610465299996-30f240ac2b1c?auto=format&q=75&fit=crop&w=1000"
-                        loading="lazy" alt="Photo by Martin Sanchez"
-                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-                    <div
-                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
-                    </div>
-
-                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Dev</span>
-                </a>
-                <!-- image - end -->
-
-                <!-- image - start -->
-                <a href="#"
-                    class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80">
-                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&q=75&fit=crop&w=600"
-                        loading="lazy" alt="Photo by Lorenzo Herrera"
-                        class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-                    <div
-                        class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
-                    </div>
-
-                    <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Retro</span>
-                </a>
-                <!-- image - end -->
+                </div>
             </div>
+    
+            <!-- card  -->
+            <div
+                class="relative bg-white border rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 transform transition duration-500 hover:scale-105">
+                <div class="p-2 flex justify-center">
+                    <a href="#">
+                        <img class="rounded-md"
+                        src="https://tailwindflex.com/public/images/thumbnails/buttons-with-border-bottom/thumb_u.min.webp"
+                        loading="lazy">
+                    </a>
+                </div>
+    
+                <div class="px-4 pb-3">
+                    <div>
+                        <a href="#">
+                            <h5
+                                class="text-xl font-semibold tracking-tight hover:text-violet-800 dark:hover:text-violet-300 text-gray-900 dark:text-white ">
+                                Button
+                            </h5>
+                        </a>
+                        <p class="antialiased text-gray-600 dark:text-gray-400 text-sm break-all">
+                            description
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- card  -->
+            <div
+                class="relative bg-white border rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 transform transition duration-500 hover:scale-105">
+    
+                <div class="p-2 flex justify-center">
+                    <a href="https://tailwindflex.com/tag/form">
+                        <img class="rounded-md"
+                        src="https://tailwindflex.com/public/images/thumbnails/sb-admin-2-login-page-with-tailwind/canvas.min.webp"
+                        loading="lazy">
+                    </a>
+                </div>
+    
+    
+                <div class="px-4 pb-3">
+                    <div>
+                        <a href="https://tailwindflex.com/tag/form">
+                            <h5
+                                class="text-xl font-semibold tracking-tight hover:text-violet-800 dark:hover:text-violet-300 text-gray-900 dark:text-white ">
+                                Form
+                            </h5>
+                        </a>
+    
+                        <p class="antialiased text-gray-600 dark:text-gray-400 text-sm break-all">
+                            description
+                        </p>
+    
+                    </div>
+                </div>
+            </div>
+    
+            <!-- card  -->
+            <div
+                class="relative bg-white border rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 transform transition duration-500 hover:scale-105">
+
+                <div class="p-2 flex justify-center">
+                    <a href="#">
+                        <img class="rounded-md"
+                        src="https://tailwindflex.com/public/images/thumbnails/alert-mono-color/thumb_u.min.webp"
+                        loading="lazy">
+                    </a>
+                </div>
+    
+    
+                <div class="px-4 pb-3">
+                    <div>
+                        <a href="#">
+                            <h5
+                                class="text-xl font-semibold tracking-tight hover:text-violet-800 dark:hover:text-violet-300 text-gray-900 dark:text-white ">
+                                Alert
+                            </h5>
+                        </a>
+    
+                        <p class="antialiased text-gray-600 dark:text-gray-400 text-sm break-all">
+                            description
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- card  -->
+            <div
+                class="relative bg-white border rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 transform transition duration-500 hover:scale-105">
+
+                <div class="p-2 flex justify-center">
+                    <a href="#">
+                        <img class="rounded-md"
+                        src="https://tailwindflex.com/public/images/thumbnails/mango-gradient/canvas.min.webp"
+                        loading="lazy">
+                    </a>
+                </div>
+                <div class="px-4 pb-3">
+                    <div>
+                        <a href="#">
+                            <h5
+                                class="text-xl font-semibold tracking-tight hover:text-violet-800 dark:hover:text-violet-300 text-gray-900 dark:text-white ">
+                                Gradient
+                            </h5>
+                        </a>
+    
+                        <p class="antialiased text-gray-600 dark:text-gray-400 text-sm break-all">
+                            description
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- card  -->
+            <div
+                class="relative bg-white border rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 transform transition duration-500 hover:scale-105">
+    
+                <div class="p-2 flex justify-center">
+                    <a href="https://tailwindflex.com/tag/badge">
+                        <img class="rounded-md"
+                        src="https://tailwindflex.com/public/images/thumbnails/badges-without-border/thumb_u.min.webp"
+                        loading="lazy">
+                    </a>
+                </div>
+    
+                <div class="px-4 pb-3">
+                    <div>
+                        <a href="https://tailwindflex.com/tag/badge">
+                            <h5
+                                class="text-xl font-semibold tracking-tight hover:text-violet-800 dark:hover:text-violet-300 text-gray-900 dark:text-white ">
+                                Badge
+                            </h5>
+                        </a>
+                        <p class="antialiased text-gray-600 dark:text-gray-400 text-sm break-all">
+                            description
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- card  -->
+            <div
+                class="relative bg-white border rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 transform transition duration-500 hover:scale-105">
+
+    
+                <div class="p-2 flex justify-center">
+                    <a href="#">
+                        <img class="rounded-md"
+                        src="https://tailwindflex.com/public/images/thumbnails/pagination-with-buttons/thumb_u.min.webp"
+                        loading="lazy">
+                    </a>
+                </div>
+    
+    
+                <div class="px-4 pb-3">
+                    <div>
+                        <a href="#">
+                            <h5
+                                class="text-xl font-semibold tracking-tight hover:text-violet-800 dark:hover:text-violet-300 text-gray-900 dark:text-white ">
+                                Button Group
+                            </h5>
+                        </a>
+    
+                        <p class="antialiased text-gray-600 dark:text-gray-400 text-sm break-all">
+                            description
+                        </p>
+                    </div>
+                </div>
+    
+            </div>
+    
+            <!-- card  -->
+            <div
+                class="relative bg-white border rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 transform transition duration-500 hover:scale-105">
+
+    
+                <div class="p-2 flex justify-center">
+                    <a href="#">
+                        <img class="rounded-md"
+                        src="https://tailwindflex.com/public/images/thumbnails/resonsive-card-grid-with-hover-animation/thumb_u.min.webp"
+                        loading="lazy">
+                    </a>
+                </div>
+    
+                <div class="px-4 pb-3">
+                    <div>
+                        <a href="#">
+                            <h5
+                                class="text-xl font-semibold tracking-tight hover:text-violet-800 dark:hover:text-violet-300 text-gray-900 dark:text-white ">
+                                Feature
+                            </h5>
+                        </a>
+                        <p class="antialiased text-gray-600 dark:text-gray-400 text-sm break-all">
+                            description
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- card  -->
+            <div
+                class="relative bg-white border rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 transform transition duration-500 hover:scale-105">
+
+    
+                <div class="p-2 flex justify-center">
+                    <a href="https://tailwindflex.com/tag/call-to-action">
+                        <img class="rounded-md"
+                        src="https://tailwindflex.com/public/images/thumbnails/hero-header-with-search-button/thumb_u.min.webp"
+                        loading="lazy">
+                    </a>
+                </div>
+    
+                <div class="px-4 pb-3">
+                    <div>
+                        <a href="https://tailwindflex.com/tag/call-to-action">
+                            <h5
+                                class="text-xl font-semibold tracking-tight hover:text-violet-800 dark:hover:text-violet-300 text-gray-900 dark:text-white ">
+                                Call to Action
+                            </h5>
+                        </a>
+                        <p class="antialiased text-gray-600 dark:text-gray-400 text-sm break-all">
+                            description
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- card  -->
+            <div
+                class="relative bg-white border rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 transform transition duration-500 hover:scale-105">
+                <div class="p-2 flex justify-center">
+                    <a href="#">
+                        <img class="rounded-md"
+                        src="https://tailwindflex.com/public/images/thumbnails/feature-showcase/canvas.min.webp"
+                        loading="lazy">
+                    </a>
+                </div>
+    
+                <div class="px-4 pb-3">
+                    <div>
+                        <a href="#">
+                            <h5
+                                class="text-xl font-semibold tracking-tight hover:text-violet-800 dark:hover:text-violet-300 text-gray-900 dark:text-white ">
+                                Grid
+                            </h5>
+                        </a>
+    
+                        <p class="antialiased text-gray-600 dark:text-gray-400 text-sm break-all">
+                            description
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- card  -->
+            <div
+                class="relative bg-white border rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700 transform transition duration-500 hover:scale-105">
+    
+                <div class="p-2 flex justify-center">
+                    <a href="#">
+                        <img class="rounded-md"
+                        src="https://tailwindflex.com/public/images/thumbnails/login-form-with-icon/thumb_u.min.webp"
+                        loading="lazy">
+                    </a>
+                </div>
+    
+    
+                <div class="px-4 pb-3">
+                    <div>
+                        <a href="#">
+                            <h5
+                                class="text-xl font-semibold tracking-tight hover:text-violet-800 dark:hover:text-violet-300 text-gray-900 dark:text-white ">
+                                Login
+                            </h5>
+                        </a>
+                        <p class="antialiased text-gray-600 dark:text-gray-400 text-sm break-all">
+                            description
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
         </div>
+    
     </div>
 
     <!-- Footer -->
