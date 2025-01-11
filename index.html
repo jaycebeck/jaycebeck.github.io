@@ -9,23 +9,24 @@
     <script src="https://unpkg.com/htmx.org@2.0.4"
         integrity="sha384-HGfztofotfshcF7+8n44JQL2oJmowVChPTg48S+jvZoztPfvwD79OC/LTtG6dMp+"
         crossorigin="anonymous"></script>
-    <script src="tailwind_config.js"></script>
+    <script src="tailwind.config.js"></script>
 
     <title>Jayce Beck | Home</title>
 </head>
 
-<body class="min-h-screen flex flex-col">
+<body class="bg-bg">
     <!-- Header -->
-    <header class="bg-gray-800 text-white p-4">
-        <ul>
-            <h1 class="text-4xl pb-2">Jayce Beck</h1>
+    <header class="bg-bg3 text-fg p-4">
+        <ul> 
+            <!-- drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] -->
+            <h1 class="text-4xl pb-2 text-purple drop-shadow-lg">Jayce Beck</h1>
         </ul>
         <nav>
             <ul class="flex space-x-4 text-lg">
-                <li><a href="index.html" class="hover:bg-white hover:text-gray-800 rounded p-1">Home</a></li>
-                <li><a href="about.html" class="hover:bg-white hover:text-gray-800 rounded p-1">About</a></li>
-                <li><a href="projects.html" class="hover:bg-white hover:text-gray-800 rounded p-1">Projects</a></li>
-                <li><a href="contact.html" class="hover:bg-white hover:text-gray-800 rounded p-1">Contact</a></li>
+                <li><a href="index.html" class="hover:text-bg_h hover:bg-blue rounded p-1">Home</a></li>
+                <li><a href="about.html" class="hover:text-bg_h hover:bg-blue rounded p-1">About</a></li>
+                <li><a href="projects.html" class="hover:text-bg_h hover:bg-blue rounded p-1">Projects</a></li>
+                <li><a href="contact.html" class="hover:text-bg_h hover:bg-blue rounded p-1">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -36,12 +37,12 @@
             <div class="p-5">
                 <img src="https://placehold.co/200x200" alt="Placeholder Image" class="rounded-lg">
             </div>
-            <div class="p-10">
+            <div class="p-10 text-fg">
                 <h2 class="text-2xl">Welcome to my website!</h2>
                 <p class="mt-4">I'm Jayce Beck, thats all!</p>
             </div>
         </div>
-        <div class="bg-white dark:bg-gray-200 h-screen h-full py-6 sm:py-8 lg:py-12">
+        <div class="bg-bg dark:bg-gray-200 h-screen h-full py-6 sm:py-8 lg:py-12">
             <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
                 <!-- <div class="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
                     <div class="flex items-center gap-12">
@@ -71,7 +72,7 @@
                             class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                         </div>
     
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">VR</span>
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-fg md:ml-5 md:text-lg">VR</span>
                     </a>
                     <!-- image - end -->
     
@@ -86,7 +87,7 @@
                             class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                         </div>
     
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Tech</span>
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-fg md:ml-5 md:text-lg">Tech</span>
                     </a>
                     <!-- image - end -->
     
@@ -101,7 +102,7 @@
                             class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                         </div>
     
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Dev</span>
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-fg md:ml-5 md:text-lg">Dev</span>
                     </a>
                     <!-- image - end -->
     
@@ -116,7 +117,7 @@
                             class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                         </div>
     
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-white md:ml-5 md:text-lg">Retro</span>
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-fg md:ml-5 md:text-lg">Retro</span>
                     </a>
                     <!-- image - end -->
                 </div>
@@ -125,12 +126,12 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white p-4">
+    <footer class="bg-bg3 text-fg  p-4">
         <div class="text-right">
             <ul class="flex justify-center space-x-4 text-sm">
-                <li><a href="" class="hover:bg-white hover:text-gray-800 rounded p-1">Email</a></li>
-                <li><a href="" class="hover:bg-white hover:text-gray-800 rounded p-1">LinkedIn</a></li>
-                <li><a href="" class="hover:bg-white hover:text-gray-800 rounded p-1">Github</a></li>
+                <li><a href="" class="hover:text-bg_h hover:bg-blue rounded p-1">Email</a></li>
+                <li><a href="" class="hover:text-bg_h hover:bg-blue rounded p-1">LinkedIn</a></li>
+                <li><a href="" class="hover:text-bg_h hover:bg-blue rounded p-1">Github</a></li>
                 <p>&copy; 2024 Jayce Beck</p>
             </ul>
         </div>
