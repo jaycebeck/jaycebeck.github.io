@@ -9,43 +9,35 @@
     <script src="https://unpkg.com/htmx.org@2.0.4"
         integrity="sha384-HGfztofotfshcF7+8n44JQL2oJmowVChPTg48S+jvZoztPfvwD79OC/LTtG6dMp+"
         crossorigin="anonymous"></script>
+        <script src="tailwind.config.js"></script>
 
     <title>Jayce Beck | Contact</title>
 </head>
 
-<body class="min-h-screen flex flex-col">
+<body class="bg-bg_s min-h-screen flex flex-col">
     <!-- Header -->
-    <header class="bg-gray-800 text-white p-4">
-        <ul>
-            <h1 class="text-4xl pb-2">Jayce Beck</h1>
-        </ul>
-        <nav>
-            <ul class="flex space-x-4 text-lg">
-                <li><a href="index.html" class="hover:bg-white hover:text-gray-800 rounded p-1">Home</a></li>
-                <li><a href="about.html" class="hover:bg-white hover:text-gray-800 rounded p-1">About</a></li>
-                <li><a href="projects.html" class="hover:bg-white hover:text-gray-800 rounded p-1">Projects</a></li>
-                <li><a href="contact.html" class="hover:bg-white hover:text-gray-800 rounded p-1">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header class="bg-bg text-fg p-4 select-none">
+        <!-- drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] -->
+        <a href="index.html"><h1 class="text-6xl pb-2 text-blue_dim text-center">JAYCE BECK</h1></a>
+</header>
 
     <!-- Main Content -->
-    <main class="flex-grow p-4 bg-gray-200">
-        <div class="flex justify-center items-center text-center flex-col">
-            <h2 class="text-2xl">Contact Me</h2>
-            <p class="mt-4 pb-5">If you have any questions or would like to get in touch, please fill out the form below.</p>
+    <main class="flex-grow p-4 bg-bg3">
+        <div class=" bg-bg3 flex justify-center items-center text-center flex-col">
+            <p class="mt-4 pb-5 text-fg">If you have any questions or would like to get in touch, please fill out the form below.</p>
         <iframe
             src="https://docs.google.com/forms/d/e/1FAIpQLSfYT3ZwLljxyQ7mP1rLbHNRBTaibCNGModCwwhetd1zL3dfrg/viewform?embedded=true"
-            width="600" height="600" style="border: none;">Loading…</iframe>
+            class="bg-white rounded-lg"
+            width="600" height="700" style="border: none;">Loading…</iframe>
         </div>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-bg text-white p-4">
+    <footer class="bg-bg text-fg  p-4">
         <div class="text-right">
             <ul class="flex justify-center space-x-4 text-sm">
-                <li><a href="" class="hover:bg-white hover:text-gray-800 rounded p-1">LinkedIn</a></li>
-                <li><a href="" class="hover:bg-white hover:text-gray-800 rounded p-1">Github</a></li>
+                <li><a href="https://www.linkedin.com/in/jaycebeck" target="_blank" rel="noopener noreferrer" class="hover:text-bg_h hover:bg-blue rounded p-1">LinkedIn</a></li>
+                <li><a href="https://github.com/jaycebeck" target="_blank" rel="noopener noreferrer" class="hover:text-bg_h hover:bg-blue rounded p-1">Github</a></li>
                 <li><a href="contact.html" class="hover:text-bg_h hover:bg-blue rounded p-1">Contact</a></li>
                 <p>&copy; 2024 Jayce Beck</p>
             </ul>
