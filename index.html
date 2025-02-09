@@ -10,11 +10,13 @@
         integrity="sha384-HGfztofotfshcF7+8n44JQL2oJmowVChPTg48S+jvZoztPfvwD79OC/LTtG6dMp+"
         crossorigin="anonymous"></script>
     <script src="tailwind.config.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
 
     <title>Jayce Beck | Home</title>
 </head>
 
 <body class="bg-bg_s">
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
     <!-- Header -->
     <header class="bg-bg text-fg p-4 select-none">
             <!-- drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)] -->
@@ -29,12 +31,34 @@
         </nav> -->
     </header>
 
+
     <!-- Main Content -->
-    <main class="p-4 bg-bg_s">
-        <div class="min-h-screen h-full py-6 sm:py-8 lg:py-12">
+    <main class="p-4 bg-bg_s h-fit-content">
+
+        <div>
+            <h1 class="text-aqua text-4xl text-center">Featured Projects</h1>
+        </div>
+
+        <div class="py-2 sm:py-8 lg:py-12">
             <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
 
-                <div class="grid grid-cols-2 gap-4 sm:grid-cols-12 md:gap-6 xl:gap-8">
+                <div class="grid grid-cols-1 gap-4 sm:grid-cols-12 md:gap-6 xl:gap-8">
+
+                    <!-- image - start -->
+                    <a href="under_construction.html"
+                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-8 md:h-80">
+                        <img src="img/paper-spiral.jpg"
+                            loading="lazy" alt=""
+                            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                        <div
+                            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                        </div>
+
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-fg md:ml-5 md:text-lg bg-bg_s rounded pl-1 pr-1  font-bold">All Projects - Under Construction</span>
+                    </a>
+                    <!-- image - end -->
+
                     <!-- image - start -->
                     <a href="about.html"
                         class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-4 md:h-80">
@@ -46,59 +70,14 @@
                             class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                         </div>
 
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-fg md:ml-5 md:text-lg bg-bg_s rounded pl-1 pr-1">About Me</span>
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-fg md:ml-5 md:text-lg bg-bg_s rounded pl-1 pr-1 font-bold">About Me</span>
                     </a>
                     <!-- image - end -->
 
                     <!-- image - start -->
-                    <a href="#"
-                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-8 md:h-80">
-                        <img src="https://images.unsplash.com/photo-1542759564-7ccbb6ac450a?auto=format&q=75&fit=crop&w=1000"
-                            loading="lazy" alt=""
-                            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-                        <div
-                            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
-                        </div>
-
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-fg md:ml-5 md:text-lg bg-bg_s rounded pl-1 pr-1">Personal Projects - <b>Under Construction</b></span>
-                    </a>
-                    <!-- image - end -->
-
-                    <!-- image - start -->
-                    <a href="#"
-                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-8 md:h-80">
-                        <img src="img/paper-spiral.jpg"
-                            loading="lazy" alt=""
-                            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-                        <div
-                            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
-                        </div>
-
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-fg md:ml-5 md:text-lg bg-bg_s rounded pl-1 pr-1">Writings and Research - <b>Under Construction</b></span>
-                    </a>
-                    <!-- image - end -->
-
-                    <!-- image - start -->
-                    <a href="#"
+                    <a href="under_construction.html"
                         class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-4 md:h-80">
-                        <img src="img/uofm-sunrise.jpg"
-                            loading="lazy" alt="Photo by University of Montana"
-                            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-                        <div
-                            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
-                        </div>
-
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-fg md:ml-5 md:text-lg bg-bg_s rounded pl-1 pr-1">University Projects - <b>Under Construction</b></span>
-                    </a>
-                    <!-- image - end -->
-
-                    <!-- image - start -->
-                    <a href="contact.html"
-                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-3 md:h-80">
-                        <img src="img/blue-pikmin.jpg"
+                        <img src="img/yellowstone-boardwalk.jpg"
                             loading="lazy" alt=""
                             class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
 
@@ -106,27 +85,12 @@
                             class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                         </div>
 
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-fg md:ml-5 md:text-lg bg-bg_s rounded pl-1 pr-1">Contact</span>
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-fg md:ml-5 md:text-lg bg-bg_s rounded pl-1 pr-1 font-bold">Adventures and Blog - Under Construction</span>
                     </a>
                     <!-- image - end -->
 
                     <!-- image - start -->
-                    <a href="#"
-                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-4 md:h-80">
-                        <img src="img/winter-hotsprings.jpg"
-                            loading="lazy" alt=""
-                            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-                        <div
-                            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
-                        </div>
-
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-fg md:ml-5 md:text-lg bg-bg_s rounded pl-1 pr-1">Adventures and Blog - <b>Under Construction</b></span>
-                    </a>
-                    <!-- image - end -->
-
-                    <!-- image - start -->
-                    <a href="#"
+                    <a href="under_construction.html"
                         class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-5 md:h-80">
                         <img src="img/cat-on-books.jpg"
                             loading="lazy" alt=""
@@ -136,22 +100,38 @@
                             class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
                         </div>
 
-                        <span class="relative ml-4 mb-3 inline-block text-sm text-fg md:ml-5 md:text-lg bg-bg_s rounded pl-1 pr-1">Media Recommendations - <b>Under Construction</b></span>
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-fg md:ml-5 md:text-lg bg-bg_s rounded pl-1 pr-1 font-bold">Media Recommendations - Under Construction</span>
                     </a>
+
+                    <!-- image - start -->
+                    <a href="contact.html"
+                        class="group relative flex h-48 items-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:col-span-3 md:h-80">
+                        <img src="img/type-writer.jpg"
+                            loading="lazy" alt=""
+                            class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
+
+                        <div
+                            class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
+                        </div>
+
+                        <span class="relative ml-4 mb-3 inline-block text-sm text-fg md:ml-5 md:text-lg bg-bg_s rounded pl-1 pr-1 font-bold">Contact</span>
+                    </a>
+                    <!-- image - end -->
+
                     <!-- image - end -->
                 </div>
             </div>
         </div>
     </main>
-
+    <div class="pb-5"></div>
     <!-- Footer -->
-    <footer class="bg-bg text-fg  p-4">
+    <footer class="bg-bg text-fg p-4 fixed bottom-0 w-full">
         <div class="text-right">
-            <ul class="flex justify-center space-x-4 text-sm">
+            <ul class="flex justify-center text-sm gap-4">
                 <li><a href="https://www.linkedin.com/in/jaycebeck" target="_blank" rel="noopener noreferrer" class="hover:text-bg_h hover:bg-blue rounded p-1">LinkedIn</a></li>
                 <li><a href="https://github.com/jaycebeck" target="_blank" rel="noopener noreferrer" class="hover:text-bg_h hover:bg-blue rounded p-1">Github</a></li>
                 <li><a href="contact.html" class="hover:text-bg_h hover:bg-blue rounded p-1">Contact</a></li>
-                <p>&copy; 2024 Jayce Beck</p>
+                <li><p>&copy; 2024-25 Jayce Beck</p></li>
             </ul>
         </div>
     </footer>
